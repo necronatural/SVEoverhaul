@@ -1,0 +1,544 @@
+{
+    "Format": "1.15",
+    "ConfigSchema": 
+    {
+
+    "Gunther":
+        {
+            "AllowValues": "true, DCB, disabled",
+        "Default": "true"},
+
+    "Magnus":
+        {
+            "AllowValues": "true, nobeard, disabled",
+        "Default": "true"},
+
+    "Marlon":
+        {
+            "AllowValues": "true, scruff, shaved, false",
+        "Default": "true"},
+    
+    "Alesia": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },                      
+    "Camilla": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+
+    "Claire": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+    "FemaleFarmer": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },               
+    "Isaac": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+
+    "Jadu": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+
+    "Jolyne": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+
+    "Lance": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+    "MaleFarmer": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }, 
+    "Martin": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+    "Morgan": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+    "Morris": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+    "Olivia": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+
+    "Scarlett": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+
+    "Sophia": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+
+    "Susan": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },      
+    "Treyvon": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+    "Victor": 
+        {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },  
+    },
+
+
+    "Changes": [
+
+//STARDEW VALLEY EXPANDED SPRITES
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Alesia",
+            "FromFile": "assets/ExtendedCrossing/Alesia.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Alesia": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Camilla",
+            "FromFile": "assets/ExtendedCrossing/Camilla.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Camilla": "True",
+            }
+        },
+
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "assets/ExtendedCrossing/Claire.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Claire": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Beach",
+            "FromFile": "assets/ExtendedCrossing/Claire_Beach.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Claire": "True",
+            }
+        },
+        {
+
+          "Action": "EditImage",
+          "Target": "Characters/Claire",
+          "FromFile": "assets/ExtendedCrossing/Claire_Joja.png",
+          "When": {"LocationName": "JojaMart","HasFile:{{FromFile}}": true},
+          "Update": "OnLocationChange"
+        },
+        {
+
+          "Action": "EditImage",
+          "Target": "Characters/Claire",
+          "FromFile": "assets/ExtendedCrossing//Claire_Theater.png",
+          "When": { "Spouse |contains=Claire": false, "HasFile:{{FromFile}}": true,"DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+          "Update": "OnLocationChange"
+        },
+        {
+
+          "Action": "EditImage",
+          "Target": "Characters/Claire",
+          "FromFile": "assets/ExtendedCrossing/Claire_Theater.png",
+          "When": { "Spouse": "Claire", "HasFile:{{FromFile}}": true,"DayOfWeek": "Monday, Wednesday, Thursday, Sunday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater" },
+          "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/FemaleFarmer",
+            "FromFile": "assets/ExtendedCrossing/FemaleFarmer.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "FemaleFarmer": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Gunther",
+            "FromFile": "assets/ExtendedCrossing/Gunther.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Gunther": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Gunther",
+            "FromFile": "assets/ExtendedCrossing/Gunther_DCB.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Gunther": "DCB",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Isaac",
+            "FromFile": "assets/ExtendedCrossing/Isaac.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Isaac": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Jadu",
+            "FromFile": "assets/ExtendedCrossing/Jadu.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Jadu": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Jolyne",
+            "FromFile": "assets/ExtendedCrossing/Jolyne.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Jolyne": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Lance",
+            "FromFile": "assets/ExtendedCrossing/Lance.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Lance": "True",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Magnus",
+            "FromFile": "assets/ExtendedCrossing/Magnus.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Magnus": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Magnus",
+            "FromFile": "assets/ExtendedCrossing/Magnus_nobeard.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Magnus": "nobeard"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/MaleFarmer",
+            "FromFile": "assets/ExtendedCrossing/MaleFarmer.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "MaleFarmer": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marlon",
+            "FromFile": "assets/ExtendedCrossing/Marlon.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marlon",
+            "FromFile": "assets/ExtendedCrossing/Marlon_scruff.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "scruff"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Marlon",
+            "FromFile": "assets/ExtendedCrossing/Marlon_shaved.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "shaved"
+            }
+        },
+        {
+          "Action": "EditImage",
+          "Target": "Characters/Martin",
+          "FromFile": "assets/ExtendedCrossing/Martin_Joja.png",
+          "When": { "LocationName": "JojaMart","HasFile:{{FromFile}}": true},
+          "Update": "OnLocationChange"
+        },
+        {
+    
+          "Action": "EditImage",
+          "Target": "Characters/Martin",
+          "FromFile": "assets/ExtendedCrossing/Martin_Theater.png",
+          "When": { "Spouse |contains=Claire": false, "DayOfWeek": "Tuesday, Saturday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater","HasFile:{{FromFile}}": true},
+          "Update": "OnLocationChange"
+        },
+        {
+          "Action": "EditImage",
+          "Target": "Characters/Martin",
+          "FromFile": "assets/ExtendedCrossing/Martin_Theater.png",
+          "When": { "Spouse": "Claire", "DayOfWeek": "Tuesday, Friday, Saturday", "HasSeenEvent |contains=502261": false, "LocationName": "MovieTheater","HasFile:{{FromFile}}": true},
+          "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Morris",
+            "FromFile": "assets/ExtendedCrossing/Morris.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Morris": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Olivia",
+            "FromFile": "assets/ExtendedCrossing/Olivia.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Olivia": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Olivia_Beach",
+            "FromFile": "assets/ExtendedCrossing/Olivia_Beach.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Olivia": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Scarlett",
+            "FromFile": "assets/ExtendedCrossing/Scarlett.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Scarlett": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Scarlett_Cosplay",
+            "FromFile": "assets/ExtendedCrossing/Scarlett_Cosplay.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Scarlett": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sophia",
+            "FromFile": "assets/ExtendedCrossing/Sophia.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Sophia": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Sophia_Beach",
+            "FromFile": "assets/ExtendedCrossing/Sophia_Beach.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Sophia": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/SophiaJPKsprite",
+            "FromFile": "assets/ExtendedCrossing/SophiaJPKsprite.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Sophia": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Susan",
+            "FromFile": "assets/ExtendedCrossing/Susan.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Susan": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Susan_Beach",
+            "FromFile": "assets/ExtendedCrossing/Susan_Beach.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Susan": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Treyvon",
+            "FromFile": "assets/ExtendedCrossing/Treyvon.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Treyvon": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Victor",
+            "FromFile": "assets/ExtendedCrossing/Victor.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Victor": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Victor_Beach",
+            "FromFile": "assets/ExtendedCrossing/Victor_Beach.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Victor": "true"
+            }
+        },
+
+//STARDEW VALLEY EXPANDED PORTRAITS
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Gunther",
+            "FromFile": "assets/ExtendedCrossingPortrait/Gunther.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Gunther": "true"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Magnus",
+            "FromFile": "assets/ExtendedCrossingPortrait/Magnus.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Magnus": "true",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Magnus",
+            "FromFile": "assets/ExtendedCrossingPortrait/Magnus_nobeard.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Magnus": "nobeard",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/ExtendedCrossingPortrait/Marlon.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "true",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/ExtendedCrossingPortrait/Marlon_scruff.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "scruff",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/ExtendedCrossingPortrait/Marlon_scruff.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Marlon": "shaved",
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "portraits/Morris",
+            "FromFile": "assets/ExtendedCrossingPortrait/Morris.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Morris": "true",
+            }
+        },
+    ]
+}
