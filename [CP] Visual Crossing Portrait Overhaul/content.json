@@ -1,0 +1,1138 @@
+{
+    "Format": "1.15",
+    "ConfigSchema": 
+    {
+
+        "AbigailStyle":
+        {
+            "AllowValues": "standard, classicbow, ribbon, disabled",
+        "Default": "Standard"},
+
+        "HaleyStyle":
+        {
+            "AllowValues": "standard, photokit, classic, disabled",
+        "Default": "Standard"},
+
+        "HarveyStyle":
+        {
+            "AllowValues": "standard, noglasses, nomustache, nomustglasses, disabled",
+        "Default": "Standard"},
+
+        "KrobusStyle":
+        {
+            "AllowValues": "standard, humanoid, disabled",
+        "Default": "Standard"},
+
+        "PennyStyle":
+        {
+            "AllowValues": "standard, puff, disabled",
+        "Default": "Standard"},
+
+        "PierreStyle":
+        {
+            "AllowValues": "standard, noglasses, disabled",
+        "Default": "Standard"},
+
+        "LeahStyle":
+        {
+            "AllowValues": "freckles, nofreckles, disabled",
+        "Default": "freckles"},
+
+        "MaruStyle":
+        {
+            "AllowValues": "standard, noglasses, 4A, plum, plum4A, noglasses4A, noglassesplum, noglassesplum4A, disabled",
+        "Default": "Standard"},
+
+        "ShaneStyle":
+        {
+            "AllowValues": "standard, undercut, noshadow, undernoshadow, recovery, recovernoshadow, recoverundercut, RUNS, disabled",
+        "Default": "Standard"},
+
+        "SamStyle":
+        {
+            "AllowValues": "standard, honey, slick, honeyslick, disabled",
+        "Default": "Standard"},
+
+        "SebastianStyle":
+        {
+            "AllowValues": "standard, emo, disabled",
+        "Default": "Standard"},
+
+        "SandyStyle":
+        {
+            "AllowValues": "standard, simple, dark, darksimple, disabled",
+        "Default": "Standard"},
+
+        "DemetriusStyle":
+        {
+            "AllowValues": "standard, labcoat, disabled",
+        "Default": "Standard"},
+        
+        "WizardStyle":
+        {
+            "AllowValues": "standard, nobeard, disabled",
+        "Default": "Standard"},
+
+        "MarlonStyle":
+        {
+            "AllowValues": "standard, scruff, shaved, disabled",
+        "Default": "Standard"}
+    },
+    "Changes": [
+
+    //ABIGAIL
+        {
+            "Action": "Load",
+            "Target": "portraits/Abigail",
+            "FromFile": "assets/Abigail.png",
+            "When":
+            {
+                "AbigailStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Abigail",
+            "FromFile": "assets/Alts/Abigail_Bow.png",
+            "When":
+            {
+                "AbigailStyle": "classicbow"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Abigail",
+            "FromFile": "assets/Alts/Abigail_Ribbon.png",
+            "When":
+            {
+                "AbigailStyle": "ribbon"
+            }
+        },
+    //ALEX
+        {
+            "Action": "Load",
+            "Target": "portraits/Alex",
+            "FromFile": "assets/Alex.png",
+        },
+    //BEAR
+        {
+            "Action": "Load",
+            "Target": "portraits/Bear",
+            "FromFile": "assets/Bear.png",
+        },
+    //BOUNCER
+        {
+            "Action": "Load",
+            "Target": "portraits/Bouncer",
+            "FromFile": "assets/Bouncer.png",
+        },
+    //CAROLINE
+        {
+            "Action": "Load",
+            "Target": "portraits/Caroline",
+            "FromFile": "assets/Caroline.png"
+        },
+    //CLINT
+        {
+            "Action": "Load",
+            "Target": "portraits/Clint",
+            "FromFile": "assets/Clint.png"
+        },
+    //DEMETRIUS
+        {
+            "Action": "Load",
+            "Target": "portraits/Demetrius",
+            "FromFile": "assets/Demetrius.png",
+            "When":
+            {
+                "DemetriusStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Demetrius",
+            "FromFile": "assets/Alts/Demetrius_labcoat.png",
+            "When":
+            {
+                "DemetriusStyle": "labcoat"
+            }
+        },
+    //ELLIOT
+        {
+            "Action": "Load",
+            "Target": "portraits/Elliott",
+            "FromFile": "assets/Elliott.png"
+        },
+    //EMILY
+        {
+            "Action": "Load",
+            "Target": "portraits/Emily",
+            "FromFile": "assets/Emily.png"
+        },
+    //GUNTHER
+        {
+            "Action": "Load",
+            "Target": "portraits/Gunther",
+            "FromFile": "assets/Gunther.png",
+        },
+    //HALEY
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley",
+            "FromFile": "assets/Haley.png",
+            "When":
+            {
+                "HaleyStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley",
+            "FromFile": "assets/Alts/Haley_photokit.png",
+            "When":
+            {
+                "HaleyStyle": "photokit"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley",
+            "FromFile": "assets/Alts/Haley_classic.png",
+            "When":
+            {
+                "HaleyStyle": "classic"
+            }
+        },
+    //HARVEY
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey",
+            "FromFile": "assets/Harvey.png",
+            "When":
+            {
+                "HarveyStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey",
+            "FromFile": "assets/Alts/Harvey_noglasses.png",
+            "When":
+            {
+                "HarveyStyle": "noglasses"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey",
+            "FromFile": "assets/Alts/Harvey_nomustache.png",
+            "When":
+            {
+                "HarveyStyle": "nomustache"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey",
+            "FromFile": "assets/Alts/Harvey_nomustglasses.png",
+            "When":
+            {
+                "HarveyStyle": "nomustglasses"
+            }
+        },
+    //HENCHMAN
+        {
+            "Action": "Load",
+            "Target": "portraits/Henchman",
+            "FromFile": "assets/Henchman.png",
+        },
+    //JAS
+        {
+            "Action": "Load",
+            "Target": "portraits/Jas",
+            "FromFile": "assets/Jas.png"
+        },
+    //JODI
+        {
+            "Action": "Load",
+            "Target": "portraits/Jodi",
+            "FromFile": "assets/Jodi.png"
+        },
+    //KENT
+        {
+            "Action": "Load",
+            "Target": "portraits/Kent",
+            "FromFile": "assets/Kent.png"
+        },
+    //KROBUS
+        {
+            "Action": "Load",
+            "Target": "portraits/Krobus",
+            "FromFile": "assets/Krobus.png",
+            "When":
+            {
+                "KrobusStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Krobus",
+            "FromFile": "assets/Alts/Krobus_humanoid.png",
+            "When":
+            {
+                "KrobusStyle": "humanoid"
+            }
+        },
+    //LEAH
+        {
+            "Action": "Load",
+            "Target": "portraits/Leah",
+            "FromFile": "assets/Leah.png",
+            "When":
+            {
+                "LeahStyle": "freckles"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Leah",
+            "FromFile": "assets/Alts/Leah_nofreckles.png",
+            "When":
+            {
+                "LeahStyle": "nofreckles"
+            }
+        },
+    //LEWIS
+        {
+            "Action": "Load",
+            "Target": "portraits/Lewis",
+            "FromFile": "assets/Lewis.png",
+        },
+    //MARLON
+        {
+            "Action": "Load",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/Marlon.png",
+            "When":
+            {
+                "MarlonStyle": "Standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/Marlon_scruff.png",
+            "When":
+            {
+                "MarlonStyle": "scruff"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Marlon",
+            "FromFile": "assets/Marlon_shaved.png",
+            "When":
+            {
+                "MarlonStyle": "shaved"
+            }
+        },
+
+    //MARNIE
+        {
+            "Action": "Load",
+            "Target": "portraits/Marnie",
+            "FromFile": "assets/Marnie.png"
+        },
+    //MARU
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Maru.png",
+            "When":
+            {
+                "MaruStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_noglasses.png",
+            "When":
+            {
+                "MaruStyle": "noglasses"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_4A.png",
+            "When":
+            {
+                "MaruStyle": "4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_plum.png",
+            "When":
+            {
+                "MaruStyle": "plum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_plum4A.png",
+            "When":
+            {
+                "MaruStyle": "plum4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/noglasses4A.png",
+            "When":
+            {
+                "MaruStyle": "noglasses4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_noglassesplum.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru",
+            "FromFile": "assets/Alts/Maru_noglassesplum4A.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum4A"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Maru_Hospital.png",
+            "When":
+            {
+                "MaruStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_noglasses.png",
+            "When":
+            {
+                "MaruStyle": "noglasses"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_4A.png",
+            "When":
+            {
+                "MaruStyle": "4A"
+            }
+        }, 
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_plum.png",
+            "When":
+            {
+                "MaruStyle": "plum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_plum4A.png",
+            "When":
+            {
+                "MaruStyle": "plum4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_noglasses4A.png",
+            "When":
+            {
+                "MaruStyle": "noglasses4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_noglassesplum.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Hospital",
+            "FromFile": "assets/Alts/Maru_Hospital_noglassesplum4A.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum4A"
+            }
+        },
+    //MORRIS
+        {
+            "Action": "Load",
+            "Target": "portraits/Morris",
+            "FromFile": "assets/Morris.png"
+        },
+    //MRQI
+        {
+            "Action": "Load",
+            "Target": "portraits/MrQi",
+            "FromFile": "assets/MrQi.png"
+        },
+    //PAM
+        {
+            "Action": "Load",
+            "Target": "portraits/Pam",
+            "FromFile": "assets/Pam.png",
+        },
+    //PENNY
+        {
+            "Action": "Load",
+            "Target": "portraits/Penny",
+            "FromFile": "assets/Penny.png",
+            "When":
+            {
+                "PennyStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Penny",
+            "FromFile": "assets/Alts/Penny_puff.png",
+            "When":
+            {
+                "PennyStyle": "puff"
+            }
+        },
+    //PIERRE
+        {
+            "Action": "Load",
+            "Target": "portraits/Pierre",
+            "FromFile": "assets/Pierre.png",
+            "When":
+            {
+                "PierreStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Pierre",
+            "FromFile": "assets/Alts/Pierre_noglasses.png",
+            "When":
+            {
+                "PierreStyle": "noglasses"
+            }
+        },
+    //ROBIN
+        {
+            "Action": "Load",
+            "Target": "portraits/Robin",
+            "FromFile": "assets/Robin.png"
+        },
+    //SAM
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam",
+            "FromFile": "assets/Sam.png",
+            "When":
+            {
+                "SamStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam",
+            "FromFile": "assets/Alts/Sam_honey.png",
+            "When":
+            {
+                "SamStyle": "honey"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam",
+            "FromFile": "assets/Alts/Sam_slick.png",
+            "When":
+            {
+                "SamStyle": "slick"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam",
+            "FromFile": "assets/Alts/Sam_honeyslick.png",
+            "When":
+            {
+                "SamStyle": "honeyslick"
+            }
+        },
+    //SANDY
+        {
+            "Action": "Load",
+            "Target": "portraits/Sandy",
+            "FromFile": "assets/Sandy.png",
+            "When":
+            {
+                "SandyStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sandy",
+            "FromFile": "assets/Alts/Sandy_simple.png",
+            "When":
+            {
+                "SandyStyle": "simple"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sandy",
+            "FromFile": "assets/Alts/Sandy_dark.png",
+            "When":
+            {
+                "SandyStyle": "dark"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sandy",
+            "FromFile": "assets/Alts/Sandy_darksimple.png",
+            "When":
+            {
+                "SandyStyle": "darksimple"
+            }
+        },
+    //SEBASTIAN
+        {
+            "Action": "Load",
+            "Target": "portraits/Sebastian",
+            "FromFile": "assets/Sebastian.png",
+            "When":
+            {
+                "SebastianStyle": "standard"
+            }
+
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sebastian",
+            "FromFile": "assets/Alts/Sebastian_emo.png",
+            "When":
+            {
+                "SebastianStyle": "emo"
+            }
+        },
+    //SHANE
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Shane.png",
+            "When":
+            {
+                "ShaneStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_undercut.png",
+            "When":
+            {
+                "ShaneStyle": "undercut"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_noshadow.png",
+            "When":
+            {
+                "ShaneStyle": "noshadow"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_undernoshadow.png",
+            "When":
+            {
+                "ShaneStyle": "undernoshadow"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_recovery.png",
+            "When":
+            {
+                "ShaneStyle": "recovery"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_recovery_noshadow.png",
+            "When":
+            {
+                "ShaneStyle": "recovernoshadow"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane",
+            "FromFile": "assets/Alts/Shane_recovery_undercut.png",
+            "When":
+            {
+                "ShaneStyle": "recoverundercut"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Alts/Shane",
+            "FromFile": "assets/Alts/Shane_recovery_undernoshadow.png",
+            "When":
+            {
+                "ShaneStyle": "RUNS"
+            }
+        },
+    //RASMODIUS
+        {
+            "Action": "Load",
+            "Target": "portraits/Wizard",
+            "FromFile": "assets/Wizard.png",
+            "When":
+            {
+                "WizardStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Wizard",
+            "FromFile": "assets//Alts/Wizard_nobeard.png",
+            "When":
+            {
+                "WizardStyle": "nobeard"
+            }
+        },
+//BEACH
+
+    //BEACH ABIGAIL
+          {
+            "Action": "Load",
+            "Target": "portraits/Abigail_Beach",
+            "FromFile": "assets/Abigail_Beach.png",
+            "When":
+            {
+                "AbigailStyle": "standard"
+            }
+        },
+           {
+            "Action": "Load",
+            "Target": "portraits/Abigail_Beach",
+            "FromFile": "assets/Alts/Abigail_Beach_Bow.png",
+            "When":
+            {
+                "AbigailStyle": "classicbow"
+            }
+        },
+         {
+            "Action": "Load",
+            "Target": "portraits/Abigail_Beach",
+            "FromFile": "assets/Alts/Abigail_Beach_ribbon.png",
+            "When":
+            {
+                "AbigailStyle": "ribbon"
+            }
+        },
+    //BEACH ALEX
+        {
+            "Action": "Load",
+            "Target": "portraits/Alex_Beach",
+            "FromFile": "assets/Alex_Beach.png"
+        },
+    //BEACH CAROLINE
+        {
+            "Action": "Load",
+            "Target": "portraits/Caroline_Beach",
+            "FromFile": "assets/Caroline_Beach.png"
+        },
+    //BEACH CLINT
+        {
+            "Action": "Load",
+            "Target": "portraits/Clint_Beach",
+            "FromFile": "assets/Clint_Beach.png"
+        },
+    //BEACH ELLIOTT
+        {
+            "Action": "Load",
+            "Target": "portraits/Elliott_Beach",
+            "FromFile": "assets/Elliott_Beach.png"
+        },
+    //BEACH EMILY
+        {
+            "Action": "Load",
+            "Target": "portraits/Emily_Beach",
+            "FromFile": "assets/Emily_Beach.png"
+        },
+    //BEACH HALEY
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley_Beach",
+            "FromFile": "assets/Haley_Beach.png",
+            "When":
+            {
+                "HaleyStyle": "standard"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley_Beach",
+            "FromFile": "assets/Haley_Beach.png",
+            "When":
+            {
+                "HaleyStyle": "photokit"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Haley_Beach",
+            "FromFile": "assets/Haley_Beach.png",
+            "When":
+            {
+                "HaleyStyle": "classic"
+            }
+        },
+    //BEACH HARVEY
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey_Beach",
+            "FromFile": "assets/Harvey_Beach.png",
+            "When":
+            {
+                "HarveyStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey_Beach",
+            "FromFile": "assets/Alts/Harvey_Beach_noglasses.png",
+            "When":
+            {
+                "HarveyStyle": "noglasses"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey_Beach",
+            "FromFile": "assets/Alts/Harvey_Beach_nomustache.png",
+            "When":
+            {
+                "HarveyStyle": "nomustache"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Harvey_Beach",
+            "FromFile": "assets/Alts/Harvey_Beach_nomustglasses.png",
+            "When":
+            {
+                "HarveyStyle": "nomustglasses"
+            }
+        },
+    //BEACH JODI
+        {
+            "Action": "Load",
+            "Target": "portraits/Jodi_Beach",
+            "FromFile": "assets/Jodi_Beach.png"
+        },
+    //BEACH LEAH
+        {
+            "Action": "Load",
+            "Target": "portraits/Leah_Beach",
+            "FromFile": "assets/Leah_Beach.png",
+            "When":
+            {
+                "LeahStyle": "freckles"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Leah_Beach",
+            "FromFile": "assets/Alts/Leah_Beach_nofreckles.png",
+            "When":
+            {
+                "LeahStyle": "nofreckles"
+            }
+        },
+    //BEACH MARNIE
+        {
+            "Action": "Load",
+            "Target": "portraits/Marnie_Beach",
+            "FromFile": "assets/Marnie_Beach.png"
+        },
+    //BEACH MARU
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Maru_Beach.png",
+            "When":
+            {
+                "MaruStyle": "standard"
+            }
+        },
+                {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Maru_Beach.png",
+            "When":
+            {
+                "MaruStyle": "noglasses"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_4A.png",
+            "When":
+            {
+                "MaruStyle": "4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_plum.png",
+            "When":
+            {
+                "MaruStyle": "plum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_plum4A.png",
+            "When":
+            {
+                "MaruStyle": "plum4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_4A.png",
+            "When":
+            {
+                "MaruStyle": "noglasses4A"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_plum.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Maru_Beach",
+            "FromFile": "assets/Alts/Maru_Beach_plum4A.png",
+            "When":
+            {
+                "MaruStyle": "noglassesplum4A"
+            }
+        },
+    //BEACH PAM
+        {
+            "Action": "Load",
+            "Target": "portraits/Pam_Beach",
+            "FromFile": "assets/Pam_Beach.png",
+        },
+    //BEACH PENNY
+        {
+            "Action": "Load",
+            "Target": "portraits/Penny_Beach",
+            "FromFile": "assets/Penny_Beach.png",
+            "When":
+            {
+                "PennyStyle": "standard, puff"
+            }
+        },
+
+    //BEACH PIERRE
+        {
+            "Action": "Load",
+            "Target": "portraits/Pierre_Beach",
+            "FromFile": "assets/Pierre_Beach.png",
+            "When":
+            {
+                "PierreStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Pierre_Beach",
+            "FromFile": "assets/Alts/Pierre_Beach_noglasses.png",
+            "When":
+            {
+                "PierreStyle": "noglasses"
+            }
+        },
+    //BEACH ROBIN
+        {
+            "Action": "Load",
+            "Target": "portraits/Robin_Beach",
+            "FromFile": "assets/Robin_Beach.png"
+        },
+
+    //BEACH SAM
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam_Beach",
+            "FromFile": "assets/Sam_Beach.png",
+            "When":
+            {
+                "SamStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam_Beach",
+            "FromFile": "assets/Alts/Sam_Beach_honey.png",
+            "When":
+            {
+                "SamStyle": "honey"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam_Beach",
+            "FromFile": "assets/Alts/Sam_Beach_slick.png",
+            "When":
+            {
+                "SamStyle": "slick"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sam_Beach",
+            "FromFile": "assets/Alts/Sam_Beach_honeyslick.png",
+            "When":
+            {
+                "SamStyle": "honeyslick"
+            }
+        },
+    //BEACH SEBASTIAN
+        {
+            "Action": "Load",
+            "Target": "portraits/Sebastian_Beach",
+            "FromFile": "assets/Sebastian_Beach.png",
+            "When":
+            {
+                "SebastianStyle": "standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Sebastian_Beach",
+            "FromFile": "assets/Alts/Sebastian_Beach_emo.png",
+            "When":
+            {
+                "SebastianStyle": "emo"
+            }
+        },
+    //BEACH SHANE
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Shane_Beach.png",
+            "When":
+            {
+                "ShaneStyle": "standard, recovery"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_undercut.png",
+            "When":
+            {
+                "ShaneStyle": "undercut"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_noshadow.png",
+            "When":
+            {
+                "ShaneStyle": "noshadow"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_undernoshadow.png",
+            "When":
+            {
+                "ShaneStyle": "undernoshadow"
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_undercut.png",
+            "When":
+            {
+                "ShaneStyle": "recoverundercut"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_noshadow.png",
+            "When":
+            {
+                "ShaneStyle": "recovernoshadow"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "portraits/Shane_Beach",
+            "FromFile": "assets/Alts/Shane_Beach_undernoshadow.png",
+            "When":
+            {
+                "ShaneStyle": "RUNS"
+            }
+        },
+
+    ]
+}

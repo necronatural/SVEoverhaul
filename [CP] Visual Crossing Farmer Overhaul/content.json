@@ -1,0 +1,54 @@
+{
+    "Format": "1.7",
+    "Changes": [
+
+
+        // Farmer
+
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/hairstyles",
+            "FromFile": "assets/Farmer/hairstyles.png",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/shirts",
+            "FromFile": "assets/Farmer/shirts.png",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/skinColors",
+            "FromFile": "assets/Farmer/skinColors.png",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/accessories",
+            "FromFile": "assets/Farmer/accessories.png",
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/farmer_base",
+            "FromFile": "assets/Farmer/farmer_base.png",
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/farmer__base_bald",
+            "FromFile": "assets/Farmer/farmer_base_bald.png",
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/farmer_girl_base",
+            "FromFile": "assets/Farmer/farmer_girl_base.png",
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/farmer_girl_base_bald",
+            "FromFile": "assets/Farmer/farmer_girl_base_bald.png",
+        },
+    ]
+}

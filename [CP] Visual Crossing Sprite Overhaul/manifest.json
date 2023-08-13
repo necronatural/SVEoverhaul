@@ -1,0 +1,12 @@
+{
+   "Name": "Visual Crossing Character Sprite Overhaul",
+   "Author": "Crossy",
+   "Version": "2.0",
+   "Description": "Stardew Valley character sprite replacer",
+   "UniqueID": "crossy.vcso_character",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:1942"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

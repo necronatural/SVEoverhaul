@@ -1,0 +1,12 @@
+{
+   "Name": "Visual Crossing Farmer Sprite Overhaul",
+   "Author": "Crossy",
+   "Version": "1.7",
+   "Description": "Visual Crossing Sprite Overhaul farmer replacer for ContentPatcher",
+   "UniqueID": "crossy.vcso_farmer",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:1942"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

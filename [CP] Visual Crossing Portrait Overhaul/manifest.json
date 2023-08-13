@@ -1,0 +1,12 @@
+{
+   "Name": "Visual Crossing Character Portrait Overhaul",
+   "Author": "Crossy",
+   "Version": "2.0",
+   "Description": "Character sprite replacer for ContentPatcher",
+   "UniqueID": "crossy.vcso_portrait",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:4615"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

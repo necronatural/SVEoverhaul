@@ -1,0 +1,34 @@
+{
+   "Name": "Visual Crossing Character Expanded Overhaul",
+   "Author": "Crossy",
+   "Version": "1.0",
+   "Description": "Stardew Valley Expanded character sprite replacer",
+   "UniqueID": "crossy.vcso_expanded",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": ["Nexus:1942"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+  "Dependencies": [
+   {
+      "UniqueID": "crossy.vcso_character",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "crossy.vcso_portrait",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "Parrot.RomRas",
+      "IsRequired": false,
+   }
+  ]
+}
